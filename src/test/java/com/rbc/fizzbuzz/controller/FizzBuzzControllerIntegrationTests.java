@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
-public class FizzBuzzControllerTests {
+public class FizzBuzzControllerIntegrationTests {
 
 	@Autowired
 	private MockMvc mvc;
