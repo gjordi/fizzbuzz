@@ -1,7 +1,5 @@
 package com.rbc.fizzbuzz;
 
-import javax.annotation.PostConstruct;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +18,15 @@ public class FizzBuzzApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FizzBuzzApplication.class, args);
+
+		logger.info("================================================================================");
+		logger.info(" Welcome to Fizz Buzz");
+		logger.info("--------------------------------------------------------------------------------");
+		logger.info(" Point your browser to http://localhost:8080/next to start.");
+		logger.info("================================================================================");
 	}
 
+	/*
 	@PostConstruct
 	public void outputToScreen() {
 		logger.info("----------------------------------------");
@@ -32,4 +37,5 @@ public class FizzBuzzApplication {
 		}
 		logger.info("----------------------------------------");
 	}
+	*/
 }

@@ -10,3 +10,8 @@
 * mvn clean
 * mvn test
 * mvn spring-boot:run
+
+### Game Play
+
+* curl -i -X GET http://localhost:8080/next
+* curl -i -X GET http://localhost:8080/restart
