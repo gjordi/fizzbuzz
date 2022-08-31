@@ -7,6 +7,6 @@
 
 ### Usage
 
-mvn clean
-mvn test
-mvn spring-boot:run
+* mvn clean
+* mvn test
+* mvn spring-boot:run
